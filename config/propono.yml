@@ -1,0 +1,11 @@
+development:
+  use_iam_profile: false
+  access_key: SOME_ACCESS_KEY
+  secret_key: SOME_SECRET_KEY
+  region: eu-west-1
+  queue_suffix:
+
+production:
+  use_iam_profile: true
+  region: eu-west-1
+  queue_suffix:

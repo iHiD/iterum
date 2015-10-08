@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# LOAD CENTRAL RVM PROFILE
+source /etc/profile.d/rvm.sh
+
+# SOURCE USER'S RVM MAGIC
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+bundle exec rake iterum:reprocess_failed[APPLICATION_NAME,TOPIC,COUNT] ENV=production
