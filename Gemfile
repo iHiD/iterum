@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rake'
 
-gem 'activesupport',  '~> 3.2.15'
+gem 'activesupport',  '~> 3.2.22'
 gem 'filum',          '~> 2.0'
 gem 'propono',        '~> 1.1'
 gem 'aws-sdk',        '1.28.1'
